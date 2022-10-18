@@ -1,0 +1,17 @@
+/* Застосується до всіх тегів з класом title */
+.title {
+    color: brown;
+    font-size: 100;
+    font-weight: 500;
+}
+
+/* Застосується до всіх тегів з класом text */
+.text {
+    color: brown;
+    font-size: 18px;
+}
+
+/* Застосується до всіх тегів з класом link */
+.link {
+    text-decoration: none;
+}
