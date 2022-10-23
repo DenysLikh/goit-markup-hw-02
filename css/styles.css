@@ -1,3 +1,7 @@
+:root {
+	--brand-color: #2196f3;
+}
+
 body {
 	font-family: "Roboto", Verdana, sans-serif;
 }
@@ -9,12 +13,12 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: calc(31 / 26);
 	letter-spacing: 0.03em;
-	color: #2196f3;
+	color: var(--brand-color)
 }
 
-.logo-studio {
+.logo-studio-header {
 	color: #000;
 }
 
@@ -32,36 +36,31 @@ body {
 	background: #fff;
 }
 
-.nav-list {
-}
-
-.nav-list-item {
-}
-
 .nav-link {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 1.33;
+	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: #212121;
 }
 
 .nav-link:hover,
-.nav-link:focus {
-	color: #2196f3;
+.nav-link:focus,
+.nav-link:active {
+	color: var(--brand-color);
 }
 
 .header-contacts {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: calc(16 / 12);
+	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: #757575;
 }
 
 .header-contacts:hover,
 .header-contacts:focus {
-	color: #2196f3;
+	color: var(--brand-color);
 }
 
 /* HERO */
@@ -70,10 +69,10 @@ body {
 	background: #2f303a;
 }
 
-.h1 {
+.title {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 5;
+	line-height: calc(60 / 44);
 	/* or 136% */
 
 	text-align: center;
@@ -84,7 +83,7 @@ body {
 }
 
 .hero-btn {
-	background: #2196F3;
+	background: var(--brand-color);
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 		border-radius: 4px;
 }
@@ -92,7 +91,7 @@ body {
 .hero-btn-text {
 	font-weight: 700;
 		font-size: 16px;
-		line-height: 30px;
+		line-height: calc(30 / 16);
 		/* identical to box height, or 188% */
 	
 		display: flex;
@@ -103,14 +102,105 @@ body {
 		color: #FFFFFF;
 }
 
-.hero-btn
-.hero-btn-text:hover,
-.hero-btn
-.hero-btn-text:focus {
+.hero-btn:hover,
+.hero-btn:focus {
 	background: #188CE8;
-		
 }
 
 .pointer {
 	cursor: pointer;
+}
+
+/* 4 FEATURES */
+
+.h3-features {
+	font-size: 14px;
+		line-height: calc(16 / 14);
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #212121;
+}
+
+.p-features {
+	font-weight: 400;
+		font-size: 14px;
+		line-height: calc(24 / 14);
+		/* or 171% */
+		letter-spacing: 0.03em;
+		color: #757575;
+}
+
+/* W.W.D. */
+
+.h2-title {
+	font-size: 36px;
+		line-height: calc(42 / 36);
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: #212121;
+}
+
+/* TEAM */
+
+.h3-team {
+	font-weight: 500;
+		font-size: 16px;
+		line-height: calc(19 / 16);
+		/* identical to box height */
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: #212121;
+}
+
+.p-team {
+	font-weight: 400;
+		font-size: 16px;
+		line-height: calc(19 / 16);
+		/* identical to box height */
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: #757575;
+}
+
+.team-section {
+	background: #F5F4FA;
+}
+
+.team-cards {
+	background: #FFFFFF;
+		/* material shadow v1 */
+	
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+		border-radius: 0px 0px 4px 4px;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #2F303A;
+}
+
+.logo-studio-footer {
+	color: #fff;
+}
+
+.address {
+	font-style: normal;
+	font-weight: 400;
+		font-size: 14px;
+		line-height: calc(24 / 14);
+		/* or 171% */
+	
+		letter-spacing: 0.03em;
+	
+		color: #FFFFFF;
+}
+
+.footer-contacts {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
 }
