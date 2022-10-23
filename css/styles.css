@@ -45,8 +45,7 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus,
-.nav-link:active {
+.nav-link:focus {
 	color: var(--brand-color);
 }
 
@@ -249,4 +248,14 @@ body {
 	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+	color: var(--brand-color);
+}
+
+.address:hover,
+.address:focus {
+	color: var(--brand-color);
 }
