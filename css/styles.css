@@ -15,7 +15,7 @@ body {
 	font-size: 26px;
 	line-height: calc(31 / 26);
 	letter-spacing: 0.03em;
-	color: var(--brand-color)
+	color: var(--brand-color);
 }
 
 .logo-studio-header {
@@ -63,7 +63,7 @@ body {
 	color: var(--brand-color);
 }
 
-/* HERO */
+/* HERO INDEX */
 
 .hero {
 	background: #2f303a;
@@ -84,100 +84,146 @@ body {
 
 .hero-btn {
 	background: var(--brand-color);
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-		border-radius: 4px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
 
 .hero-btn-text {
 	font-weight: 700;
-		font-size: 16px;
-		line-height: calc(30 / 16);
-		/* identical to box height, or 188% */
-	
-		display: flex;
-		align-items: center;
-		text-align: center;
-		letter-spacing: 0.06em;
-	
-		color: #FFFFFF;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	/* identical to box height, or 188% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+
+	color: #ffffff;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background: #188CE8;
+	background: #188ce8;
 }
 
 .pointer {
 	cursor: pointer;
 }
 
+/* HERO PORTFOLIO */
+
+.btn-portfolio {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26 / 16);
+	/* identical to box height, or 162% */
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+	color: #fff;
+	background: var(--brand-color);
+	/* shadow-middle */
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}
+
+.portfolio-item {
+	background: #FFF;
+	border: 1px solid #EEE;
+}
+
+.h3-portfolio {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	/* identical to box height, or 200% */
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+
+.p-portfolio {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	/* identical to box height, or 188% */
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
 /* 4 FEATURES */
 
 .h3-features {
 	font-size: 14px;
-		line-height: calc(16 / 14);
-		letter-spacing: 0.03em;
-		text-transform: uppercase;
-		color: #212121;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
 }
 
 .p-features {
 	font-weight: 400;
-		font-size: 14px;
-		line-height: calc(24 / 14);
-		/* or 171% */
-		letter-spacing: 0.03em;
-		color: #757575;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	/* or 171% */
+	letter-spacing: 0.03em;
+	color: #757575;
 }
 
 /* W.W.D. */
 
 .h2-title {
 	font-size: 36px;
-		line-height: calc(42 / 36);
-		text-align: center;
-		letter-spacing: 0.03em;
-		color: #212121;
+	line-height: calc(42 / 36);
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 
 /* TEAM */
 
 .h3-team {
 	font-weight: 500;
-		font-size: 16px;
-		line-height: calc(19 / 16);
-		/* identical to box height */
-		text-align: center;
-		letter-spacing: 0.03em;
-		color: #212121;
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
 }
 
 .p-team {
 	font-weight: 400;
-		font-size: 16px;
-		line-height: calc(19 / 16);
-		/* identical to box height */
-		text-align: center;
-		letter-spacing: 0.03em;
-		color: #757575;
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
 
 .team-section {
-	background: #F5F4FA;
+	background: #f5f4fa;
 }
 
 .team-cards {
-	background: #FFFFFF;
-		/* material shadow v1 */
-	
-		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-		border-radius: 0px 0px 4px 4px;
+	background: #ffffff;
+	/* material shadow v1 */
+
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 /* FOOTER */
 
 .footer {
-	background: #2F303A;
+	background: #2f303a;
 }
 
 .logo-studio-footer {
@@ -187,13 +233,13 @@ body {
 .address {
 	font-style: normal;
 	font-weight: 400;
-		font-size: 14px;
-		line-height: calc(24 / 14);
-		/* or 171% */
-	
-		letter-spacing: 0.03em;
-	
-		color: #FFFFFF;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	/* or 171% */
+
+	letter-spacing: 0.03em;
+
+	color: #ffffff;
 }
 
 .footer-contacts {
